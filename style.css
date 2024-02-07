@@ -20,5 +20,55 @@ body {
     top: 0;
 }
 
-audio {
+.main-img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    font-size: 35px;
+}
+
+.main {
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.OK {
+    background-color: rgb(64, 1, 224);
+}
+
+.KOK {
+    background-color: rgb(255, 165, 0);
+}
+
+.OK {
+    position: absolute;
+    bottom: -250px; /* Điều chỉnh vị trí dưới hình ảnh */
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+.KOK {
+    position: absolute;
+    bottom: -250px; /* Điều chỉnh vị trí dưới hình ảnh */
+    left: 70%;
+    transform: translateX(-50%);
 }
