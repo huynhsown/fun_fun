@@ -6,6 +6,10 @@ body {
     background-color: red;
 }
 
+.not-fun {
+    display:none;
+}
+
 .img1 {
     width: 25%;
     position: absolute;
@@ -42,8 +46,6 @@ h1 {
 }
 
 button {
-    width: 90px;
-    height: 40px;
     border-radius: 5px;
     border: 0px;
     color: #fff;
@@ -71,4 +73,9 @@ button {
     bottom: -250px; /* Điều chỉnh vị trí dưới hình ảnh */
     left: 70%;
     transform: translateX(-50%);
+}
+
+
+video {
+    z-index: 999;
 }
