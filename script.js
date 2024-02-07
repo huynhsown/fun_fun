@@ -31,8 +31,13 @@ buttonOK.addEventListener('click', ()=>{
     const div_not_fun = document.querySelector(".not-fun")
     const body = document.querySelector('body')
     const video = div_not_fun.querySelector('video')
-    video.play()
     div_fun.setAttribute("style", "display:none");
     div_not_fun.setAttribute("style", "display: flex;")
     body.setAttribute("style", "background-color: black")
+    video.play()
+    video.addEventListener("ended", ()=>{
+        div_fun.setAttribute("style", "display:flex");
+        div_not_fun.setAttribute("style", "display: none;")
+        body.setAttribute("style", "background-color: red")
+    })
 })
