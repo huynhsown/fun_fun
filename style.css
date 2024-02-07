@@ -1,0 +1,24 @@
+body {
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    background-color: red;
+}
+
+.img1 {
+    width: 25%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.img2 {
+    width: 25%;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+audio {
+}
